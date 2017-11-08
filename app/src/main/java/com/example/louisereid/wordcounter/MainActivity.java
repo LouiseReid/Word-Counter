@@ -32,8 +32,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void onButtonClick(View button){
         String words = enterWords.getText().toString();
-//        wordCounter.addSentence(words);
-//        textAnswer.setText(wordCounter.wordsSize());
+        wordCounter.addSentence(words);
+        textAnswer.setText(wordCounter.wordsSize());
         textAnswer.setText(wordCounter.numWords(words));
+    }
+
+    public void onButtonClickWords(View button){
+        String words = enterWords.getText().toString();
+        wordCounter.addSentence(words);
+        textAnswer.setText(wordCounter.wordsSize());
     }
 }

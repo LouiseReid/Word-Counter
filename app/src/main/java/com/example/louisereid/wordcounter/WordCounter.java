@@ -31,6 +31,9 @@ public class WordCounter {
         String[] arr = sentence.split(" ");
         for(String words : arr){
             this.words.add(words);
+            if(sentence.isEmpty()){
+                clear();
+            }
         }
     }
 

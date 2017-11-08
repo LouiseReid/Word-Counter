@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">WordCounter</string>
     <string name="enter_words">Enter words</string>
-    <string name="count">COUNT!</string>
+    <string name="count">Occurances</string>
     <string name="textview">TextView</string>
+    <string name="words">Total Words</string>
 </resources>
